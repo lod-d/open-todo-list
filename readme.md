@@ -54,11 +54,7 @@ En résumé :
 
 Ce projet est sous licence MIT. Voir le fichier
 
-[LICENSE](https://github.com/lod-d/todo-web/blob/main/LICENSE.md).
-
-
-
-### **4.6.** `.github/ISSUE_TEMPLATE.md`
+[LICENSE](https://github.com/lod-d/todo-web/blob/main/LICENSE).
 
 ## Résumé
 
@@ -100,16 +96,3 @@ Ce qu'elle fait réellement.
 ```
 
 ---
-
-## **5. Comment l’utiliser pour expliquer GitHub en open source**
-
-Avec ce projet, tu peux montrer :
-
-- **Création du repo** + push initial
-- **README** = présentation + mode d’emploi
-- **LICENSE** = droits d’utilisation
-- **CONTRIBUTING** = règles de contribution
-- **CODE_OF_CONDUCT** = respect & comportement
-- **Issues** = signaler bug / demander fonctionnalité
-- **Branches** = développer une fonctionnalité
-- **Pull Request** = proposer ses changements
