@@ -1,0 +1,12 @@
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Éditeurs
+.vscode/
+.idea/
+
+# Si un jour on ajoute un build ou des dépendances
+node_modules/
+dist/
