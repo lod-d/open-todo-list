@@ -7,6 +7,37 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="app">
+      <header>
+        <h1>Todo List Web</h1>
+        <p>Petit projet open source pour apprendre GitHub 😄</p>
+      </header>
+
+      <main>
+        <form id="todo-form">
+          <input
+            type="text"
+            id="todo-input"
+            placeholder="Ajouter une nouvelle tâche..."
+            autocomplete="off"
+          />
+          <button type="submit">Ajouter</button>
+        </form>
+
+        <ul id="todo-list">
+          <!-- Tâches générées en JS -->
+        </ul>
+
+        <div class="actions">
+          <button id="clear-done">Supprimer les tâches terminées</button>
+          <button id="clear-all">Tout supprimer</button>
+        </div>
+      </main>
+
+      <footer>
+        <small>Projet pédagogique open source – GitHub demo</small>
+      </footer>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
