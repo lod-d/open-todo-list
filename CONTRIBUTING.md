@@ -65,4 +65,4 @@ git push origin feature/nom-de-votre-fonctionnalite
 
 ## **9. Code de conduite**
 
-En contribuant, vous acceptez de respecter le [Code de Conduite](https://github.com/lod-d/todo-web/lod-d/main/CODE_OF_CONDUCT.md).
+En contribuant, vous acceptez de respecter le [Code de Conduite](https://github.com/lod-d/open-todo-list/blob/main/CODE_OF_CONDUCT.md).
