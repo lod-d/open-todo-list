@@ -1,3 +1,14 @@
+:root {
+  --text-color: #555;
+  --highlight-color: #007bff;
+  --todo-item-border: #eee;
+  --todo-item-background: #fafafa;
+  --todo-text-color: #999;
+  --delete-color: #cc0000;
+  --clear-done-color: #ffc107;
+  --footer-text-color: #777;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,9 +22,17 @@ body {
   display: flex;
   justify-content: center;
   padding: 40px 10px;
+  height: 100vh;
+}
+
+main {
+  display: grid;
+  grid-template-rows: max-content 1fr max-content;
 }
 
 .app {
+  display: grid;
+  grid-template-rows: max-content 1fr max-content;
   background: #ffffff;
   max-width: 480px;
   width: 100%;
@@ -34,7 +53,7 @@ header h1 {
 
 header p {
   font-size: 0.95rem;
-  color: #555;
+  color: var(--text-color);
 }
 
 #todo-form {
@@ -53,14 +72,14 @@ header p {
 
 #todo-input:focus {
   outline: none;
-  border-color: #007bff;
+  border-color: var(--highlight-color);
 }
 
 #todo-form button {
   padding: 10px 14px;
   border-radius: 8px;
   border: none;
-  background: #007bff;
+  background: var(--highlight-color);
   color: white;
   font-weight: 600;
   cursor: pointer;
@@ -80,9 +99,9 @@ header p {
   align-items: center;
   padding: 8px 10px;
   border-radius: 8px;
-  border: 1px solid #eee;
+  border: 1px solid var(--todo-item-border);
   margin-bottom: 6px;
-  background: #fafafa;
+  background: var(--todo-item-background);
 }
 
 .todo-item.done {
@@ -99,13 +118,13 @@ header p {
 
 .todo-item.done .todo-text {
   text-decoration: line-through;
-  color: #999;
+  color: var(--todo-text-color);
 }
 
 .todo-delete {
   border: none;
   background: transparent;
-  color: #cc0000;
+  color: var(--delete-color);
   font-size: 0.9rem;
   cursor: pointer;
 }
@@ -126,11 +145,11 @@ header p {
 }
 
 #clear-done {
-  background: #ffc107;
+  background: var(--clear-done-color);
 }
 
 #clear-all {
-  background: #dc3545;
+  background: var(--delete-color);
   color: white;
 }
 
@@ -142,5 +161,5 @@ footer {
   margin-top: 18px;
   text-align: center;
   font-size: 0.8rem;
-  color: #777;
+  color: var(--footer-text-color);
 }
