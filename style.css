@@ -110,6 +110,15 @@ header p {
   cursor: pointer;
 }
 
+.todo-edit {
+  border: none;
+  background: transparent;
+  color: #c500bb;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-left: 8px;
+}
+
 .actions {
   display: flex;
   justify-content: space-between;

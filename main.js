@@ -63,10 +63,23 @@ function renderTasks() {
     deleteBtn.textContent = "Supprimer";
     deleteBtn.addEventListener("click", () => deleteTask(task.id));
 
+    const editBtn = document.createElement("button");
+    editBtn.className = "todo-edit";
+    editBtn.textContent = "Modifier";
+    editBtn.addEventListener("click", () => {
+      const newText = prompt("Modifier la tâche", task.text);
+      if (newText) {
+        task.text = newText;
+        saveTasks();
+        renderTasks();
+      }
+    });
+
     li.appendChild(checkbox);
     li.appendChild(span);
     li.appendChild(deleteBtn);
-
+    li.appendChild(editBtn);
+    
     list.appendChild(li);
   });
 }
