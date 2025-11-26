@@ -10,7 +10,7 @@ Ce projet sert surtout d'exemple pédagogique pour expliquer :
 
 ## Démo locale
 
-1. Cloner le dépôt :
+1. Cloner le dépôt pour test:
 
 ```bash
 git clone https://github.com/<ton-pseudo>/open-todo-list.git
