@@ -10,14 +10,15 @@ Ce projet sert surtout d'exemple pédagogique pour expliquer :
 
 ## Démo locale
 
-1. Cloner le dépôt :
+1. Cloner le dépôt pour test:
 
 ```bash
-git clone https://github.com/<ton-pseudo>/todo-web.git
-cd todo-web
+git clone https://github.com/<ton-pseudo>/open-todo-list.git
+cd open-todo-list
 ```
 
 1. Ouvrir le fichier index.html dans votre navigateur :
+
 - soit en double-cliquant dessus
 - soit avec un petit serveur local (optionnel) :
 
@@ -59,7 +60,6 @@ Ce projet est sous licence MIT. Voir le fichier
 ## Résumé
 
 Le but de cette issue est de **expliquer** le bug ou l'amélioration proposée.
-
 
 ## modèle de issue de base
 
